@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/ui/dashboard.dart';
 import 'package:flutter_app/ui/learning_page.dart';
 
 class LoginSignUp extends StatelessWidget {
@@ -57,12 +58,12 @@ class LoginSignUp extends StatelessWidget {
               alignment: Alignment.bottomRight,
               margin: EdgeInsets.all(20),
               child: GestureDetector(
-                
+
                   onTap: () => {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => LearningPage()))
+                                builder: (context) => Dashboard()))
                       },
                   child: Text(
                     "Skip",
