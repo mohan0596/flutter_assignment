@@ -57,6 +57,7 @@ class LoginSignUp extends StatelessWidget {
               alignment: Alignment.bottomRight,
               margin: EdgeInsets.all(20),
               child: GestureDetector(
+                
                   onTap: () => {
                         Navigator.push(
                             context,
